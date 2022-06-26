@@ -7,11 +7,11 @@ import os
 from os.path import isfile, join
 import sys
 # Make sure this points to installed LLDB python module
-sys.path.append('/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Resources/Python')
+sys.path.append(!!!LLDB Python path here)
 import lldb
 
 # Set to target arch
-TARGET_ARCH = "arm64-apple-macosx11.3.0"
+TARGET_ARCH = !!!Your arch here
 DEBUG = False
 
 def debug_print(s):
